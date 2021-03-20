@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="D:\USAC\2021 PRIMER SEMESTRE\SOFTWARE\SA_PRACTICAS\esb\test\index.test.js">
+    <testCase name="Api testing - Server Client POST /api/cliente/pedido" duration="385"/>
+    <testCase name="Api testing - Server Client GET /api/cliente/pedido/estadoRestaurante" duration="57"/>
+    <testCase name="Api testing - Server Client GET /api/cliente/pedido/estadoRepartidor" duration="39"/>
+    <testCase name="Api testing - Server Restaurant POST /api/restaurante/pedido" duration="70"/>
+    <testCase name="Api testing - Server Restaurant GET /api/restaurante/pedido/estadoRestaurante" duration="55"/>
+    <testCase name="Api testing - Server Restaurant GET /api/restaurante/pedido/repartidor" duration="53"/>
+    <testCase name="Api testing - Server Delivery POST /api/repartidor/pedido/recibir" duration="54"/>
+    <testCase name="Api testing - Server Delivery GET /api/repartidor/pedido/estado" duration="58"/>
+    <testCase name="Api testing - Server Delivery POST /api/repartidor/pedido/entregado" duration="49"/>
+  </file>
+</testExecutions>

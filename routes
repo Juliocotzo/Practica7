@@ -1,0 +1,58 @@
+CLIENTE
+POST - http://localhost:3000/api/cliente/pedido
+{
+    "id_cliente": 10,
+    "pedido":[
+        {
+        "id_producto":11,
+        "cantidad": 2
+        },
+        {
+            "id_producto":11,
+            "cantidad": 2
+        }
+    ],
+    "direccion":"Guatemala Zona 1"
+}
+GET - http://localhost:3000/api/cliente/pedido/estadoRestaurante
+GET - http://localhost:3000/api/cliente/pedido/estadoRepartidor
+
+RESTAURANTE
+POST - http://localhost:3000/api/restaurante/pedido
+{
+    "id_cliente": 10,
+    "pedido":[
+        {
+        "id_producto":11,
+        "cantidad": 2
+        },
+        {
+            "id_producto":11,
+            "cantidad": 2
+        }
+    ],
+    "direccion":"Guatemala Zona 1"
+}
+GET - http://localhost:3000/api/restaurante/pedido/estadoRestaurante
+GET - http://localhost:3000/api/restaurante/pedido/repartidor
+
+REPARTIDOR
+POST - http://localhost:3000/api/repartidor/pedido/recibir
+{
+    "pedido":[
+        {
+        "id_producto":11,
+        "cantidad": 2
+        },
+        {
+            "id_producto":11,
+            "cantidad": 2
+        }
+    ],
+    "direccion":"Guatemala Zona 1"
+}
+GET - http://localhost:3000/api/repartidor/pedido/estado
+POST - http://localhost:3000/api/repartidor/pedido/entregado
+{
+    "estado" : 1
+}
