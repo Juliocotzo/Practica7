@@ -15,14 +15,11 @@ pipeline {
         stage('Release') {
             steps {
                 echo 'Release....'
-                
-                sh("npm install")
             }
         }
         stage('Deploy') {
             steps {
                 echo 'Deploy....'
-                sh("npm install")
                 
             }
         }
