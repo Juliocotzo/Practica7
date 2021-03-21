@@ -11,17 +11,20 @@ pipeline {
             steps {
                 echo 'Testing..'
                 
+                sh("npm install")
             }
         }
         stage('Release') {
             steps {
                 echo 'Release....'
                 
+                sh("npm install")
             }
         }
         stage('Deploy') {
             steps {
                 echo 'Deploy....'
+                sh("npm install")
                 
             }
         }
