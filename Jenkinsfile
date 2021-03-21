@@ -4,10 +4,12 @@ pipeline {
     stages {
         stage('Install') {
             steps {
+                
                 echo 'Install..'
             }
         }
         stage('Test') {
+            
             steps {
                 echo 'Testing..'
             }
